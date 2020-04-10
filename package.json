@@ -1,6 +1,6 @@
 {
   "name": "analysis.js",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "A simply javascript library for using performance api in both Node.js and web easier",
   "main": "bin/index.js",
   "scripts": {
