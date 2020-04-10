@@ -1,0 +1,35 @@
+{
+  "name": "analysis.js",
+  "version": "0.0.2",
+  "description": "A simply javascript library for using performance api in both Node.js and web easier",
+  "main": "bin/index.js",
+  "scripts": {
+    "build": "babel ./src -d bin --copy-files",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TyrealGray/Analysis.js.git"
+  },
+  "keywords": [
+    "performance",
+    "web",
+    "node.js",
+    "perf_hooks"
+  ],
+  "author": "Tyreal.Gray",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TyrealGray/Analysis.js/issues"
+  },
+  "homepage": "https://github.com/TyrealGray/Analysis.js#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "7.8.7",
+    "@babel/plugin-proposal-class-properties": "7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "7.8.3",
+    "@babel/polyfill": "7.8.7",
+    "@babel/preset-env": "7.8.7",
+    "core-js": "3.6.0"
+  }
+}
